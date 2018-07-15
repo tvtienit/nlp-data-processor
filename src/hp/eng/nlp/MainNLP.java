@@ -17,9 +17,9 @@ public class MainNLP {
     	Log.write("Your option: ", false);
     	switch(InputScanner.getInt()) {
     	case 0:
-    		String[] marks = { ".", ";", "," };
+    		String[] marks = { "." };
     		MarkHandler mHandler = new MarkHandler();
-    		mHandler.detect("data/mark.inp", "data/mark.out", marks);
+    		mHandler.detect("data/harry_potter.tkn.vi", "data/harry_potter.vi.out", marks);
     		break;
     	case 1: // English segmentation based on OpenNLP 
     		NLPHandler sentHandler = new NLPHandler();
