@@ -39,5 +39,6 @@
 	<classpathentry kind="lib" path="C:/Users/i348742/eclipse-workspace/engnlp/lib/opennlp-uima-1.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/i348742/eclipse-workspace/engnlp/lib/osgi-resource-locator-1.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/i348742/eclipse-workspace/engnlp/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/i348742/eclipse-workspace/engnlp/lib/translation.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
