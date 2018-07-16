@@ -146,7 +146,7 @@ public class TranslateText {
 	 */
 	@SuppressWarnings("deprecation")
 	public static Translate createTranslateService() {
-		return TranslateOptions.newBuilder().setApiKey("AIzaSyBxa11T4CSP_vvbWtDcPZfomdi1sMzeGh0").build().getService();
+		return TranslateOptions.newBuilder().setApiKey("GOOGLE_API_KEY").build().getService();
 	}
 
 	public static TranslateText getInstance() {
